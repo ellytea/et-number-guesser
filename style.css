@@ -1,0 +1,97 @@
+/* -------------------- basic styles */
+
+body {
+	margin: auto;
+	text-align: center;
+	font-family: 'Opens Sans', sans-serif;
+}
+
+h1 {
+	background: #404041;
+	height: 100px;
+	font-size: 3.2em;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.num {
+	color: #ed458b;
+	font-weight: 700;
+}
+
+.guess {
+	color: #e6e7e8;
+	font-weight: 300;
+}
+
+button, p, input {
+	font-weight: 300;
+	outline: none;
+}
+
+form {
+	margin-top: 30px;
+}
+
+.enter-guess {
+	font-size: 1.5em;
+	width: 390px;
+	margin: 20px;
+}
+
+button:disabled {
+	background: #d0d2d3;
+	color: #fff;
+}
+
+button:hover {
+	background: #eb008b;
+	color: #fff;
+}
+
+button:disabled:hover {
+	cursor: not-allowed;
+	background: #d0d2d3;
+}
+
+.guess-button, .clear-button {
+	font-size: 1.5em;
+	border-radius: 50px;
+	margin: 25px 5px;
+	padding: 5px 60px;
+	background: #929497;
+	color: #fff;
+}
+
+.reset-button {
+	font-size: 1.5em;
+	border-radius: 50px;
+	margin: 25px 5px;
+	padding: 5px 160px;
+	background: #929497;
+	color: #fff;
+}
+
+.last-guess, .high-low {
+	color: #404041;
+	font-size: 1.5em;
+}
+
+.last-guess-value {
+	font-size: 8em;
+	color: #eb008b;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
